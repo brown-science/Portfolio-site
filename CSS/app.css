@@ -1,0 +1,301 @@
+@import url(./Vars/_vars.css);
+
+@import url(./Vars/_global.css);
+
+
+
+
+
+/* Nav bar start */
+.header_area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar {
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font:normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .nav-item:nth-child(1) a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* Nav bar end */
+
+/* Banner start */
+
+.site-main .site-banner {
+    background: url(../img/home_banner.svg) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px)
+
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+
+}
+
+/* .site-main .site-buttons{
+    padding: 2rem;
+    padding-right: 2rem;
+} */
+
+.title-text{
+    font:normal 50px/ 72px var(--roboto);
+}
+/* Banner end */
+
+/* About start */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display:block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+/* About end */
+
+/* ===================== Skills start ===================== */
+
+.site-main .skills-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .skills-area .skills-title{
+    padding: 0 14rem;
+}
+
+.site-main .skills-area .skills-title h1{
+    font-size: 35px;
+}
+
+.site-main > .skills-area .skills{
+    background: rgba(248,252,253,0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .skills-area .skills:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* ===================== Skills end ===================== */
+
+
+/* ===================== Projects start ===================== */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .my-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .my-project .img a:hover img{
+    filter:brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* ===================== Projects end ===================== */
+
+
+/* ===================== Publications end ===================== */
+
+.site-main .pub-area .pub-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .pub-area .publication{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .pub-area .publication .pub-img{
+    padding: 2rem;
+}
+
+.site-main .pub-area .publication .about-pub{
+    padding-top: 2rem;
+}
+
+.site-main .pub-area .publication .about-pub h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .pub-area .publication .about-pub p{
+    font-size: 14px;
+}
+
+.site-main .pub-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .pub-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+
+}
+
+/* ===================== Publiations end ===================== */
+
+
+
+
+/* Education and experience */
+.section .qualification .section {
+    padding: 2rem 0 4rem;
+}
+
+.section__title{
+ font-size: 2.25rem;
+ 
+}
+
+.section__subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
+.section__title, .section__subtitle{
+    text-align: center;
+}
+
+.qualification__tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification__button:hover{
+    color: #4458dc;
+}
+
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification__data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+    justify-items: center;
+}
+
+.qualification__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification__subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification__calendar{
+    font-size: .75rem;
+}
+
+.qualification__rounder{
+    display:inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #4458dc;
+    border-radius: 50%;
+}
+
+.qualification__line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color:#4458dc;
+    transform: translate(6px, -7px);
+
+}
+/*  Education and experience */
+
+/* Footer Start */
+
+footer.footer-area{
+    padding: 5rem 0;
+    background: url(../img/footer-bg.svg) no-repeat;
+}
+
+footer.footer-area .social h5{
+    font: 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size: 22px;
+    padding: 1rem;
+}
+/* Footer End */
