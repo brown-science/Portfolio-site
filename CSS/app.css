@@ -234,9 +234,9 @@
     cursor: pointer;
 }
 
-.qualification__button:hover{
+/* .qualification__button:hover{
     color: #4458dc;
-}
+} */
 
 .qualification__icon{
     font-size: 1.8rem;
