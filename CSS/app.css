@@ -102,11 +102,11 @@
 /* ===================== Skills start ===================== */
 
 .site-main .skills-area{
-    padding: 7rem 2rem;
+    padding: 7rem 0rem;
 }
 
 .site-main .skills-area .skills-title{
-    padding: 0 14rem;
+    padding: 0 10rem;
 }
 
 .site-main .skills-area .skills-title h1{
@@ -116,7 +116,7 @@
 .site-main > .skills-area .skills{
     background: rgba(248,252,253,0.973);
     padding: 2rem 0;
-    width: 16rem;
+    width: 14rem;
     margin: 5rem .5rem;
     transition: box-shadow .7s ease;
 }
