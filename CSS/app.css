@@ -107,13 +107,13 @@
 }
 
 .section__title{
- font-size: 2.25rem;
+ font-size: 3rem;
  
 }
 
 .section__subtitle{
     display: block;
-    font-size: var(--small-font-size);
+    font-size: 1.2;
     margin-bottom: var(--mb-3);
 }
 
@@ -191,7 +191,7 @@
 }
 
 .site-main .skills-area .skills-title h1{
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .site-main > .skills-area .skills{
