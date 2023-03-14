@@ -1,12 +1,11 @@
 @import url(./Vars/_vars.css);
-
 @import url(./Vars/_global.css);
 
 
 
 
 
-/* Nav bar start */
+/*===================== Nav bar start =====================*/
 .header_area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
 }
@@ -35,9 +34,12 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-/* Nav bar end */
+/*===================== Nav bar end =====================*/
 
-/* Banner start */
+
+
+
+/*===================== Banner start =====================*/
 
 .site-main .site-banner {
     background: url(../img/home_banner.svg) no-repeat 0% 50%;
@@ -72,17 +74,15 @@
 
 }
 
-/* .site-main .site-buttons{
-    padding: 2rem;
-    padding-right: 2rem;
-} */
-
 .title-text{
     font:normal 50px/ 72px var(--roboto);
 }
-/* Banner end */
+/*===================== Banner end =====================*/
 
-/* About start */
+
+
+
+/*===================== About start =====================*/
 
 .site-main .about-area{
     padding: 8rem 5rem;
@@ -97,7 +97,88 @@
 .site-main .about-area .about-title .paragraph > p{
     padding: .4rem 0;
 }
-/* About end */
+/*===================== About end =====================*/
+
+
+
+/*===================== Education and experience =====================*/
+.section .qualification .section {
+    padding: 2rem 0 4rem;
+}
+
+.section__title{
+ font-size: 2.25rem;
+ 
+}
+
+.section__subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-3);
+}
+
+.section__title, .section__subtitle{
+    text-align: center;
+    font-style: var(--roboto);
+}
+
+.qualification__tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification__button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification__icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+    
+}
+
+.qualification__data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+    justify-items: center;
+}
+
+.qualification__title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification__subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification__calendar{
+    font-size: .75rem;
+}
+
+.qualification__rounder{
+    display:inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #4458dc;
+    border-radius: 50%;
+}
+
+.qualification__line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color:#4458dc;
+    transform: translate(6px, -7px);
+
+}
+/*=====================  Education and experience  End  =====================*/
+
 
 /* ===================== Skills start ===================== */
 
@@ -128,6 +209,8 @@
 /* ===================== Skills end ===================== */
 
 
+
+
 /* ===================== Projects start ===================== */
 
 .site-main .project-area{
@@ -154,6 +237,8 @@
 }
 
 /* ===================== Projects end ===================== */
+
+
 
 
 /* ===================== Publications end ===================== */
@@ -200,89 +285,7 @@
 /* ===================== Publiations end ===================== */
 
 
-
-
-/* Education and experience */
-.section .qualification .section {
-    padding: 2rem 0 4rem;
-}
-
-.section__title{
- font-size: 2.25rem;
- 
-}
-
-.section__subtitle{
-    display: block;
-    font-size: var(--small-font-size);
-    margin-bottom: var(--mb-3);
-}
-
-.section__title, .section__subtitle{
-    text-align: center;
-}
-
-.qualification__tabs{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2);
-}
-
-.qualification__button{
-    font-size: var(--h3-font-size);
-    font-weight: var(--font-medium);
-}
-
-/* .qualification__button:hover{
-    color: #4458dc;
-} */
-
-.qualification__icon{
-    font-size: 1.8rem;
-    margin-right: var(--mb-0-25);
-}
-
-.qualification__data{
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
-    justify-items: center;
-}
-
-.qualification__title{
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-}
-
-.qualification__subtitle{
-    display: inline-block;
-    font-size: var(--small-font-size);
-    margin-bottom: var(--mb-1);
-}
-
-.qualification__calendar{
-    font-size: .75rem;
-}
-
-.qualification__rounder{
-    display:inline-block;
-    width: 13px;
-    height: 13px;
-    background-color: #4458dc;
-    border-radius: 50%;
-}
-
-.qualification__line{
-    display: block;
-    width: 1px;
-    height: 100%;
-    background-color:#4458dc;
-    transform: translate(6px, -7px);
-
-}
-/*  Education and experience */
-
-/* Footer Start */
+/*===================== Footer Start =====================*/
 
 footer.footer-area{
     padding: 5rem 0;
@@ -297,4 +300,4 @@ footer.footer-area .social a > i{
     font-size: 22px;
     padding: 1rem;
 }
-/* Footer End */
+/*===================== Footer End =====================*/
